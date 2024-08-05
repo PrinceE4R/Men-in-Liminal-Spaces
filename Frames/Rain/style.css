@@ -1,0 +1,262 @@
+.frame-rain,
+.frame-rain * {
+  box-sizing: border-box;
+}
+.frame-rain {
+  background: #3c5058;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.rainy-sky {
+  position: absolute;
+  inset: 0;
+}
+.sky {
+  width: 2731px;
+  height: 2731px;
+  position: static;
+}
+.ellipse-6 {
+  background: #3c5058;
+  border-radius: 50%;
+  width: 2731px;
+  height: 2731px;
+  position: absolute;
+  right: -1215px;
+  top: -1216px;
+}
+.ellipse-4 {
+  background: #29363d;
+  border-radius: 50%;
+  width: 2062.01px;
+  height: 2062.01px;
+  position: absolute;
+  right: -880.89px;
+  top: -881.89px;
+}
+.ellipse-5 {
+  background: #1f2d32;
+  border-radius: 50%;
+  width: 1384.49px;
+  height: 1384.49px;
+  position: absolute;
+  right: -542.13px;
+  top: -543.13px;
+}
+.ellipse-3 {
+  background: #222e34;
+  border-radius: 50%;
+  width: 796.9px;
+  height: 796.9px;
+  position: absolute;
+  right: -248.34px;
+  top: -249.34px;
+}
+.ellipse-2 {
+  background: #76909c;
+  border-radius: 50%;
+  width: 439.53px;
+  height: 439.53px;
+  position: absolute;
+  right: -69.27px;
+  top: -69.49px;
+}
+.sun {
+  background: #e0e0e0;
+  border-radius: 50%;
+  width: 165.89px;
+  height: 165.89px;
+  position: absolute;
+  right: 67.17px;
+  top: 66.94px;
+}
+.rain-drops {
+  opacity: 0.65;
+  position: absolute;
+  inset: 0;
+}
+.rain {
+  width: 25.11%;
+  height: 29.43%;
+  position: absolute;
+  right: 75.26%;
+  left: -0.37%;
+  bottom: 13.67%;
+  top: 56.9%;
+  object-fit: cover;
+}
+.rain2 {
+  width: 25.04%;
+  height: 29.43%;
+  position: absolute;
+  right: 50.22%;
+  left: 24.74%;
+  bottom: 13.67%;
+  top: 56.9%;
+  object-fit: cover;
+}
+.rain3 {
+  width: 25.11%;
+  height: 29.43%;
+  position: absolute;
+  right: 25.11%;
+  left: 49.78%;
+  bottom: 13.67%;
+  top: 56.9%;
+  object-fit: cover;
+}
+.rain4 {
+  width: 25.04%;
+  height: 29.43%;
+  position: absolute;
+  right: 0.07%;
+  left: 74.89%;
+  bottom: 13.8%;
+  top: 56.77%;
+  object-fit: cover;
+}
+.rain5 {
+  width: 25.11%;
+  height: 29.43%;
+  position: absolute;
+  right: 75.26%;
+  left: -0.37%;
+  bottom: 65.76%;
+  top: 4.82%;
+  object-fit: cover;
+}
+.rain6 {
+  width: 25.04%;
+  height: 29.43%;
+  position: absolute;
+  right: 50.22%;
+  left: 24.74%;
+  bottom: 65.76%;
+  top: 4.82%;
+  object-fit: cover;
+}
+.rain7 {
+  width: 25.11%;
+  height: 29.43%;
+  position: absolute;
+  right: 25.11%;
+  left: 49.78%;
+  bottom: 65.76%;
+  top: 4.82%;
+  object-fit: cover;
+}
+.rain8 {
+  width: 25.04%;
+  height: 29.43%;
+  position: absolute;
+  right: 0.07%;
+  left: 74.89%;
+  bottom: 65.89%;
+  top: 4.69%;
+  object-fit: cover;
+}
+.rain9 {
+  width: 25.11%;
+  height: 29.43%;
+  position: absolute;
+  right: 75.26%;
+  left: -0.37%;
+  bottom: 40.1%;
+  top: 30.47%;
+  object-fit: cover;
+}
+.rain10 {
+  width: 25.04%;
+  height: 29.43%;
+  position: absolute;
+  right: 50.22%;
+  left: 24.74%;
+  bottom: 40.1%;
+  top: 30.47%;
+  object-fit: cover;
+}
+.rain11 {
+  width: 25.11%;
+  height: 29.43%;
+  position: absolute;
+  right: 25.11%;
+  left: 49.78%;
+  bottom: 40.1%;
+  top: 30.47%;
+  object-fit: cover;
+}
+.rain12 {
+  width: 25.04%;
+  height: 29.43%;
+  position: absolute;
+  right: 0.07%;
+  left: 74.89%;
+  bottom: 40.23%;
+  top: 30.34%;
+  object-fit: cover;
+}
+.ground {
+  position: absolute;
+  inset: 0;
+}
+.bushes {
+  opacity: 0.9;
+  width: 1090.72px;
+  height: 46px;
+  position: absolute;
+  right: 128px;
+  bottom: 90px;
+  overflow: visible;
+}
+.rectangle-1 {
+  background: linear-gradient(
+    5.59deg,
+    rgba(70, 105, 10, 1) 0%,
+    rgba(82, 107, 9, 1) 100%
+  );
+  border-radius: 20px;
+  width: 100%;
+  height: 192px;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: -92px;
+}
+.clouds-1 {
+  cursor: pointer;
+  width: 100%;
+  height: 220px;
+  background-color: transparent;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+.clouds-1:hover{
+  transform: scale(1.02);
+}
+.three-men {
+  position: absolute;
+  inset: 0;
+}
+.ellipse-13 {
+  background: #000000;
+  border-radius: 50%;
+  opacity: 0.17;
+  width: 141px;
+  height: 12px;
+  position: absolute;
+  left: calc(50% - 202px);
+  bottom: 88px;
+}
+.three-men-1 {
+  width: 102px;
+  height: 91px;
+  position: absolute;
+  left: calc(50% - 167px);
+  bottom: 88px;
+  mix-blend-mode: color-burn;
+  object-fit: cover;
+}
